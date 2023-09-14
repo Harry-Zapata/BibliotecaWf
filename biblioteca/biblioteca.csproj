@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11EFD473-6FBB-4942-9110-FCEB49AB6AD2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>biblioteca</RootNamespace>
+    <AssemblyName>biblioteca</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Capa Datos\CLSConexion.cs" />
+    <Compile Include="Capa Datos\MetodoAutor.cs" />
+    <Compile Include="Capa Datos\MetodoLibro.cs" />
+    <Compile Include="Capa Datos\MetodoUsuario.cs" />
+    <Compile Include="Capa Datos\Metodo_Libro_Autor.cs" />
+    <Compile Include="Capa Logica\CLSAutor.cs" />
+    <Compile Include="Capa Logica\CLSLibros.cs" />
+    <Compile Include="Capa Logica\CLSLibros_Autor.cs" />
+    <Compile Include="Capa Logica\CLSUsuario.cs" />
+    <Compile Include="Precentacion\biblioteca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precentacion\biblioteca.Designer.cs">
+      <DependentUpon>biblioteca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Precentacion\Consultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precentacion\Consultar.Designer.cs">
+      <DependentUpon>Consultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Precentacion\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precentacion\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Precentacion\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precentacion\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Precentacion\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precentacion\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Precentacion\biblioteca.resx">
+      <DependentUpon>biblioteca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precentacion\Consultar.resx">
+      <DependentUpon>Consultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precentacion\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precentacion\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precentacion\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seo-social-web-network-internet_262_icon-icons.com_61518.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xmag_search_find_export_locate_5984.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-file_40454.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_37110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\62914memo_109205.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatardefault_92824.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatardefault_92824 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatardefault_92824 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp3234816.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login_37128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-visible-outlined-interface-symbol_icon-icons.com_57844.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-visible-outlined-interface-symbol_icon-icons.com_578441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\not-visible-interface-symbol-of-an-eye-with-a-slash-on-it_icon-icons.com_57783.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-bookmark-icon_34486.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultar.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
