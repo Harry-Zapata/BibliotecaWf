@@ -15,6 +15,8 @@ namespace biblioteca.Capa_Datos
         public int año { get; set; }
         public int nPag { get; set; }
         public int existencia { get; set;}
+        public int añoInicio { get; set; }
+        public int añoFin { get; set; }
 
     }
 }

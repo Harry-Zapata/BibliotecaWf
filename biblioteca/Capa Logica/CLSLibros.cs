@@ -167,6 +167,7 @@ namespace biblioteca.Capa_Logica
             da.Fill(ds, "Cargar Paises");
             Cn.Close();
         }
+
         public static void consultarLibrosEditorial(MetodoLibro c)
         {
             Cn = new SqlConnection();
@@ -183,6 +184,22 @@ namespace biblioteca.Capa_Logica
             Cn.Close();
         }
 
+        public static void consultarLibrosAño(MetodoLibro c)
+        {
+            Cn = new SqlConnection();
+            Cn.ConnectionString = CLSConexion.cnCadena();
+            Cn.Open();
+            da = new SqlDataAdapter();
+            da.SelectCommand = new SqlCommand();
+            da.SelectCommand.Connection = Cn;
+            da.SelectCommand.CommandText = "VConsultar_libros_anio";
+            da.SelectCommand.Parameters.AddWithValue("@añoInicio", c.añoInicio);
+            da.SelectCommand.Parameters.AddWithValue("@añoFin", c.añoFin);
+            da.SelectCommand.CommandType = CommandType.StoredProcedure;
+            ds = new DataSet();
+            da.Fill(ds, "Cargar Año");
+            Cn.Close();
+        }
     }
 
 }

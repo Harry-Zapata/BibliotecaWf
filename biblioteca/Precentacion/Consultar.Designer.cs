@@ -46,6 +46,7 @@
             this.DtgLibro.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DtgLibro.Size = new System.Drawing.Size(776, 391);
             this.DtgLibro.TabIndex = 0;
+            this.DtgLibro.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgLibro_CellContentClick);
             // 
             // cbElegir
             // 
@@ -62,6 +63,8 @@
             this.txtTexto.Name = "txtTexto";
             this.txtTexto.Size = new System.Drawing.Size(549, 20);
             this.txtTexto.TabIndex = 2;
+            this.txtTexto.Text = "               ";
+            this.txtTexto.TextChanged += new System.EventHandler(this.txtTexto_TextChanged);
             // 
             // btnBuscar
             // 

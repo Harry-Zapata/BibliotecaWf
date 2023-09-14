@@ -57,5 +57,22 @@ namespace biblioteca.Precentacion
             Consultar cst = new Consultar();
             cst.ShowDialog();
         }
+
+        private void biblioteca_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void consultraPorAñosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FiltroAños fa = new FiltroAños();
+            fa.ShowDialog();
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            FiltroAños fa = new FiltroAños();
+            fa.ShowDialog();
+        }
     }
 }

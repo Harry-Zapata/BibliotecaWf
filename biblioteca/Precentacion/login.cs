@@ -41,7 +41,6 @@ namespace biblioteca.Precentacion
                     this.Hide();
                     frm.ShowDialog();
                     this.Close();
-                    
                 }
                 catch (Exception) { MessageBox.Show("Verificar Usuario o contraseña"); }
             }

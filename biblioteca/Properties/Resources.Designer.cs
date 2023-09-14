@@ -133,6 +133,16 @@ namespace biblioteca.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap calendar_day_month_date_year_schedule_icon_175594 {
+            get {
+                object obj = ResourceManager.GetObject("calendar_day_month_date_year_schedule_icon_175594", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap consultar {
             get {
                 object obj = ResourceManager.GetObject("consultar", resourceCulture);
@@ -206,6 +216,16 @@ namespace biblioteca.Properties {
         internal static System.Drawing.Bitmap seo_social_web_network_internet_262_icon_icons_com_61518 {
             get {
                 object obj = ResourceManager.GetObject("seo-social-web-network-internet_262_icon-icons.com_61518", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shutdown_off_close_exit_15253 {
+            get {
+                object obj = ResourceManager.GetObject("shutdown_off_close_exit_15253", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

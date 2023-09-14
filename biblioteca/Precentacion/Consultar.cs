@@ -34,6 +34,7 @@ namespace biblioteca.Precentacion
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             MetodoLibro Gl = new MetodoLibro();
+            
             if (cbElegir.SelectedIndex == 0)
             {
                 Gl.titulolibro = txtTexto.Text;
@@ -55,6 +56,16 @@ namespace biblioteca.Precentacion
                 DtgLibro.DataSource = CLSLibros.ds;
                 DtgLibro.DataMember = "Cargar Editorial";
             }
+
+        }
+
+        private void DtgLibro_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txtTexto_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
