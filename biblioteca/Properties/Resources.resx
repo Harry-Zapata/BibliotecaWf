@@ -118,35 +118,68 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="shutdown_off_close_exit_15253" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shutdown_off_close_exit_15253.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="new-file_40454" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new-file_40454.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="th" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\th.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eye-visible-outlined-interface-symbol_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye-visible-outlined-interface-symbol_icon-icons.com_578441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="not-visible-interface-symbol-of-an-eye-with-a-slash-on-it_icon-icons.com_57783" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\not-visible-interface-symbol-of-an-eye-with-a-slash-on-it_icon-icons.com_57783.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="62914memo_109205" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\62914memo_109205.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="avatardefault_92824" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\avatardefault_92824.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="consultar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\consultar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="62914memo_109205" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\62914memo_109205.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="avatardefault_92824 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\avatardefault_92824 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avatardefault_92824 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatardefault_92824 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1486485588-add-create-new-math-sign-cross-plus_81186" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1486485588-add-create-new-math-sign-cross-plus_81186.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_delete_exit_1577" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_delete_exit_1577.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wp3234816" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wp3234816.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Login_37128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Login_37128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eye-visible-outlined-interface-symbol_icon-icons.com_57844" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye-visible-outlined-interface-symbol_icon-icons.com_57844.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="avatardefault_92824 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\avatardefault_92824 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="avatardefault_92824 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatardefault_92824 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="consultar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\consultar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book-bookmark-icon_34486" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book-bookmark-icon_34486.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prestamo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prestamo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="th" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\th.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book-bookmark-icon_34486 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book-bookmark-icon_34486 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book-bookmark-icon_344861" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book-bookmark-icon_344861.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shutdown_off_close_exit_15253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shutdown_off_close_exit_15253.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="seo-social-web-network-internet_262_icon-icons.com_61518" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\seo-social-web-network-internet_262_icon-icons.com_61518.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,28 +187,19 @@
   <data name="xmag_search_find_export_locate_5984" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xmag_search_find_export_locate_5984.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icono.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eye-visible-outlined-interface-symbol_icon-icons.com_57844" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eye-visible-outlined-interface-symbol_icon-icons.com_57844.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="eye-visible-outlined-interface-symbol_icon-icons1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eye-visible-outlined-interface-symbol_icon-icons.com_578441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="book-bookmark-icon_34486" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\book-bookmark-icon_34486.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Login_37128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_37128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Save_37110" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Save_37110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="new-file_40454" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\new-file_40454.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="calendar_day_month_date_year_schedule_icon_175594" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calendar_day_month_date_year_schedule_icon_175594.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book-bookmark-icon_34486 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book-bookmark-icon_34486 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -73,5 +73,15 @@ namespace biblioteca.Precentacion
             pbMostrar.BringToFront();
             txtContraseña.PasswordChar = '*';
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

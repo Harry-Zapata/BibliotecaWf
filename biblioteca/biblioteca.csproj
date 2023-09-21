@@ -49,11 +49,13 @@
     <Compile Include="Capa Datos\CLSConexion.cs" />
     <Compile Include="Capa Datos\MetodoAutor.cs" />
     <Compile Include="Capa Datos\MetodoLibro.cs" />
+    <Compile Include="Capa Datos\MetodoPrestamo.cs" />
     <Compile Include="Capa Datos\MetodoUsuario.cs" />
     <Compile Include="Capa Datos\Metodo_Libro_Autor.cs" />
     <Compile Include="Capa Logica\CLSAutor.cs" />
     <Compile Include="Capa Logica\CLSLibros.cs" />
     <Compile Include="Capa Logica\CLSLibros_Autor.cs" />
+    <Compile Include="Capa Logica\CLSPrestamos.cs" />
     <Compile Include="Capa Logica\CLSUsuario.cs" />
     <Compile Include="Precentacion\biblioteca.cs">
       <SubType>Form</SubType>
@@ -91,6 +93,18 @@
     <Compile Include="Precentacion\login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Precentacion\prestamoFecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precentacion\prestamoFecha.Designer.cs">
+      <DependentUpon>prestamoFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Precentacion\prestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precentacion\prestamos.Designer.cs">
+      <DependentUpon>prestamos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Precentacion\biblioteca.resx">
@@ -110,6 +124,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Precentacion\login.resx">
       <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precentacion\prestamoFecha.resx">
+      <DependentUpon>prestamoFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precentacion\prestamos.resx">
+      <DependentUpon>prestamos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -196,6 +216,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\calendar_day_month_date_year_schedule_icon_175594.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prestamo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486485588-add-create-new-math-sign-cross-plus_81186.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_delete_exit_1577.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-bookmark-icon_344861.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-bookmark-icon_34486 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-bookmark-icon_34486 %281%291.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,63 +16,129 @@ namespace biblioteca.Precentacion
         {
             InitializeComponent();
         }
-
-        private void toolStripButton1_Click(object sender, EventArgs e)
+        void libro()
         {
+            Form1 frm = new Form1();
+            frm.ShowDialog();
+        }
+        void autor()
+        {
+            Form2 frm = new Form2();
+            frm.ShowDialog();
+        }
+        void prestamoLibro()
+        {
+            prestamos frm = new prestamos();
+            frm.ShowDialog();
+        }
+        void consultarLibroAutor()
+        {
+            Consultar consultar = new Consultar();
+            consultar.ShowDialog();
+        }
+        void consultarAño()
+        {
+            FiltroAños frm = new FiltroAños();
+            frm.ShowDialog();
+        }
+        private void imgLibro_Click(object sender, EventArgs e)
+        {
+            libro();
+        }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+            libro();
         }
 
         private void libroToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
-            frm.ShowDialog();
+            libro();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            libro();
+        }
+
+        private void imgAutor_Click(object sender, EventArgs e)
+        {
+            autor();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            autor();
         }
 
         private void autorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
-            frm.ShowDialog();
-        }
-
-        private void toolStripButton1_Click_1(object sender, EventArgs e)
-        {
-            Form1 frm = new Form1();
-            frm.ShowDialog();
+            autor();
         }
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
-            frm.ShowDialog();
+            autor();
+        }
+
+        private void prestamoLibrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            prestamoLibro();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            prestamoLibro();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            prestamoLibro();
+        }
+
+        private void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            prestamoLibro();
+        }
+
+        private void imgConsultarLA_Click(object sender, EventArgs e)
+        {
+            consultarLibroAutor();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            consultarLibroAutor();
         }
 
         private void consultarLibrosAutorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Consultar cst = new Consultar();
-            cst.ShowDialog();
+            consultarLibroAutor();
         }
 
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
-            Consultar cst = new Consultar();
-            cst.ShowDialog();
+            consultarLibroAutor();
         }
 
-        private void biblioteca_Load(object sender, EventArgs e)
+        private void imgConsultarAño_Click(object sender, EventArgs e)
         {
-
+            consultarAño();
         }
 
-        private void consultraPorAñosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
-            FiltroAños fa = new FiltroAños();
-            fa.ShowDialog();
+            consultarAño();
         }
 
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
-            FiltroAños fa = new FiltroAños();
-            fa.ShowDialog();
+            consultarAño();
+        }
+
+        private void consultraPorAñosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            consultarAño();
         }
     }
 }

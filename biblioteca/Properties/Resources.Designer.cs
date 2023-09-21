@@ -63,6 +63,16 @@ namespace biblioteca.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1486485588_add_create_new_math_sign_cross_plus_81186 {
+            get {
+                object obj = ResourceManager.GetObject("1486485588-add-create-new-math-sign-cross-plus_81186", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _62914memo_109205 {
             get {
                 object obj = ResourceManager.GetObject("62914memo_109205", resourceCulture);
@@ -133,6 +143,36 @@ namespace biblioteca.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap book_bookmark_icon_34486__1_ {
+            get {
+                object obj = ResourceManager.GetObject("book-bookmark-icon_34486 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_bookmark_icon_34486__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("book-bookmark-icon_34486 (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_bookmark_icon_344861 {
+            get {
+                object obj = ResourceManager.GetObject("book-bookmark-icon_344861", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap calendar_day_month_date_year_schedule_icon_175594 {
             get {
                 object obj = ResourceManager.GetObject("calendar_day_month_date_year_schedule_icon_175594", resourceCulture);
@@ -143,9 +183,29 @@ namespace biblioteca.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap calendario {
+            get {
+                object obj = ResourceManager.GetObject("calendario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap consultar {
             get {
                 object obj = ResourceManager.GetObject("consultar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap delete_delete_exit_1577 {
+            get {
+                object obj = ResourceManager.GetObject("delete_delete_exit_1577", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +226,16 @@ namespace biblioteca.Properties {
         internal static System.Drawing.Bitmap eye_visible_outlined_interface_symbol_icon_icons1 {
             get {
                 object obj = ResourceManager.GetObject("eye-visible-outlined-interface-symbol_icon-icons1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icono {
+            get {
+                object obj = ResourceManager.GetObject("icono", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,6 +266,16 @@ namespace biblioteca.Properties {
         internal static System.Drawing.Bitmap not_visible_interface_symbol_of_an_eye_with_a_slash_on_it_icon_icons_com_57783 {
             get {
                 object obj = ResourceManager.GetObject("not-visible-interface-symbol-of-an-eye-with-a-slash-on-it_icon-icons.com_57783", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap prestamo {
+            get {
+                object obj = ResourceManager.GetObject("prestamo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

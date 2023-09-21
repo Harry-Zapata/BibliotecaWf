@@ -45,10 +45,27 @@
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
+            this.imgConsultarLA = new System.Windows.Forms.PictureBox();
+            this.imgConsultarAño = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.imgAutor = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.imgLibro = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgConsultarLA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgConsultarAño)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAutor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLibro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -76,22 +93,23 @@
             // libroToolStripMenuItem
             // 
             this.libroToolStripMenuItem.Name = "libroToolStripMenuItem";
-            this.libroToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.libroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.libroToolStripMenuItem.Text = "Libro";
             this.libroToolStripMenuItem.Click += new System.EventHandler(this.libroToolStripMenuItem_Click);
             // 
             // autorToolStripMenuItem
             // 
             this.autorToolStripMenuItem.Name = "autorToolStripMenuItem";
-            this.autorToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.autorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.autorToolStripMenuItem.Text = "Autor";
             this.autorToolStripMenuItem.Click += new System.EventHandler(this.autorToolStripMenuItem_Click);
             // 
             // prestamoLibrosToolStripMenuItem
             // 
             this.prestamoLibrosToolStripMenuItem.Name = "prestamoLibrosToolStripMenuItem";
-            this.prestamoLibrosToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.prestamoLibrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.prestamoLibrosToolStripMenuItem.Text = "Prestamo Libros";
+            this.prestamoLibrosToolStripMenuItem.Click += new System.EventHandler(this.prestamoLibrosToolStripMenuItem_Click);
             // 
             // consultasToolStripMenuItem
             // 
@@ -131,7 +149,9 @@
             this.toolStripSeparator2,
             this.toolStripButton3,
             this.toolStripSeparator3,
-            this.toolStripButton4});
+            this.toolStripButton4,
+            this.toolStripSeparator4,
+            this.toolStripButton5});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(800, 25);
@@ -146,7 +166,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "toolStripButton1";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click_1);
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripSeparator1
             // 
@@ -193,17 +213,163 @@
             this.toolStripButton4.Text = "toolStripButton4";
             this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton5
+            // 
+            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton5.Image = global::biblioteca.Properties.Resources.prestamo;
+            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton5.Name = "toolStripButton5";
+            this.toolStripButton5.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton5.Text = "toolStripButton5";
+            this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
+            // 
             // fileSystemWatcher1
             // 
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
+            // imgConsultarLA
+            // 
+            this.imgConsultarLA.BackColor = System.Drawing.Color.Transparent;
+            this.imgConsultarLA.Image = global::biblioteca.Properties.Resources.consultar;
+            this.imgConsultarLA.Location = new System.Drawing.Point(375, 90);
+            this.imgConsultarLA.Name = "imgConsultarLA";
+            this.imgConsultarLA.Size = new System.Drawing.Size(133, 96);
+            this.imgConsultarLA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgConsultarLA.TabIndex = 4;
+            this.imgConsultarLA.TabStop = false;
+            this.imgConsultarLA.Click += new System.EventHandler(this.imgConsultarLA_Click);
+            // 
+            // imgConsultarAño
+            // 
+            this.imgConsultarAño.BackColor = System.Drawing.Color.Transparent;
+            this.imgConsultarAño.Image = global::biblioteca.Properties.Resources.calendario;
+            this.imgConsultarAño.Location = new System.Drawing.Point(543, 90);
+            this.imgConsultarAño.Name = "imgConsultarAño";
+            this.imgConsultarAño.Size = new System.Drawing.Size(133, 96);
+            this.imgConsultarAño.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgConsultarAño.TabIndex = 6;
+            this.imgConsultarAño.TabStop = false;
+            this.imgConsultarAño.Click += new System.EventHandler(this.imgConsultarAño_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(577, 201);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(59, 20);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Fecha";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(388, 201);
+            this.label3.Name = "label3";
+            this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label3.Size = new System.Drawing.Size(103, 20);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Libro_Autor";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // imgAutor
+            // 
+            this.imgAutor.BackColor = System.Drawing.Color.Transparent;
+            this.imgAutor.Image = global::biblioteca.Properties.Resources.th;
+            this.imgAutor.Location = new System.Drawing.Point(210, 90);
+            this.imgAutor.Name = "imgAutor";
+            this.imgAutor.Size = new System.Drawing.Size(133, 96);
+            this.imgAutor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgAutor.TabIndex = 3;
+            this.imgAutor.TabStop = false;
+            this.imgAutor.Click += new System.EventHandler(this.imgAutor_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(245, 201);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 20);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Autor";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // imgLibro
+            // 
+            this.imgLibro.BackColor = System.Drawing.Color.Transparent;
+            this.imgLibro.Image = global::biblioteca.Properties.Resources.book_bookmark_icon_34486;
+            this.imgLibro.Location = new System.Drawing.Point(35, 90);
+            this.imgLibro.Name = "imgLibro";
+            this.imgLibro.Size = new System.Drawing.Size(133, 96);
+            this.imgLibro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgLibro.TabIndex = 2;
+            this.imgLibro.TabStop = false;
+            this.imgLibro.Click += new System.EventHandler(this.imgLibro_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(76, 201);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "LIbro";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::biblioteca.Properties.Resources.prestamo;
+            this.pictureBox1.Location = new System.Drawing.Point(35, 252);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(133, 96);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(36, 361);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(132, 20);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Prestamo LIbro";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
             // biblioteca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::biblioteca.Properties.Resources.wp3234816;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.imgConsultarAño);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.imgConsultarLA);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.imgAutor);
+            this.Controls.Add(this.imgLibro);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -211,12 +377,16 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "biblioteca";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.biblioteca_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgConsultarLA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgConsultarAño)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAutor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLibro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -242,5 +412,17 @@
         private System.IO.FileSystemWatcher fileSystemWatcher1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripButton toolStripButton5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox imgConsultarAño;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox imgConsultarLA;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox imgAutor;
+        private System.Windows.Forms.PictureBox imgLibro;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

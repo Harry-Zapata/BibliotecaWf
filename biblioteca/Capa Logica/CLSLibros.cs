@@ -200,6 +200,42 @@ namespace biblioteca.Capa_Logica
             da.Fill(ds, "Cargar Año");
             Cn.Close();
         }
+
+        public static void consultarLibrosPrestamos(MetodoLibro c)
+        {
+            Cn = new SqlConnection();
+            Cn.ConnectionString = CLSConexion.cnCadena();
+            Cn.Open();
+            da = new SqlDataAdapter();
+            da.SelectCommand = new SqlCommand();
+            da.SelectCommand.Connection = Cn;
+            da.SelectCommand.CommandText = "Vconsultar_libros_prestamos";
+            da.SelectCommand.Parameters.AddWithValue("@librosP", c.librosP);
+            da.SelectCommand.CommandType = CommandType.StoredProcedure;
+            ds = new DataSet();
+            da.Fill(ds, "Cargar Prestamo");
+            Cn.Close();
+        }
+
+        public static void ActualizarLibroExistencia(MetodoLibro c)
+        {
+            Cn = new SqlConnection();
+            Cn.ConnectionString = CLSConexion.cnCadena();
+            Cm = new SqlCommand();
+            Cm.Connection = Cn;
+            Cm.CommandText = "Actualizar_librosExistencia";
+            Cm.CommandType = CommandType.StoredProcedure;
+
+            Cm.Parameters.Add(new SqlParameter("@idLibro", SqlDbType.VarChar));
+            Cm.Parameters["@idLibro"].Value = c.idlibro;
+
+            Cm.Parameters.Add(new SqlParameter("@existencia", SqlDbType.VarChar));
+            Cm.Parameters["@existencia"].Value = c.existencia;
+
+            Cn.Open();
+            Cm.ExecuteNonQuery();
+            Cn.Close();
+        }
     }
 
 }
