@@ -323,6 +323,16 @@ namespace biblioteca.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap time_management_tasks_to_do_list_planning_icon_188770 {
+            get {
+                object obj = ResourceManager.GetObject("time_management_tasks_to_do_list_planning_icon_188770", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wp3234816 {
             get {
                 object obj = ResourceManager.GetObject("wp3234816", resourceCulture);

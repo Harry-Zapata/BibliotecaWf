@@ -241,5 +241,8 @@
   <ItemGroup>
     <None Include="Resources\book-bookmark-icon_34486 %281%291.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time_management_tasks_to_do_list_planning_icon_188770.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -58,6 +58,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
@@ -66,6 +68,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.imgAutor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -93,21 +96,21 @@
             // libroToolStripMenuItem
             // 
             this.libroToolStripMenuItem.Name = "libroToolStripMenuItem";
-            this.libroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.libroToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.libroToolStripMenuItem.Text = "Libro";
             this.libroToolStripMenuItem.Click += new System.EventHandler(this.libroToolStripMenuItem_Click);
             // 
             // autorToolStripMenuItem
             // 
             this.autorToolStripMenuItem.Name = "autorToolStripMenuItem";
-            this.autorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.autorToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.autorToolStripMenuItem.Text = "Autor";
             this.autorToolStripMenuItem.Click += new System.EventHandler(this.autorToolStripMenuItem_Click);
             // 
             // prestamoLibrosToolStripMenuItem
             // 
             this.prestamoLibrosToolStripMenuItem.Name = "prestamoLibrosToolStripMenuItem";
-            this.prestamoLibrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.prestamoLibrosToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.prestamoLibrosToolStripMenuItem.Text = "Prestamo Libros";
             this.prestamoLibrosToolStripMenuItem.Click += new System.EventHandler(this.prestamoLibrosToolStripMenuItem_Click);
             // 
@@ -353,6 +356,30 @@
             this.label5.Text = "Prestamo LIbro";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::biblioteca.Properties.Resources.time_management_tasks_to_do_list_planning_icon_188770;
+            this.pictureBox2.Location = new System.Drawing.Point(210, 252);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(133, 96);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(203, 361);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(140, 20);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Prestamo Fecha";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // biblioteca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -360,6 +387,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::biblioteca.Properties.Resources.wp3234816;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
@@ -387,6 +416,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.imgAutor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -424,5 +454,7 @@
         private System.Windows.Forms.PictureBox imgLibro;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

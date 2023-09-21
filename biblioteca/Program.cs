@@ -17,7 +17,7 @@ namespace biblioteca
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new prestamoFecha());
+            Application.Run(new login());
         }
     }
 }

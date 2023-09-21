@@ -41,6 +41,11 @@ namespace biblioteca.Precentacion
             FiltroAños frm = new FiltroAños();
             frm.ShowDialog();
         }
+        void consultarFecha()
+        {
+            prestamoFecha frm = new prestamoFecha();
+            frm.ShowDialog();
+        }
         private void imgLibro_Click(object sender, EventArgs e)
         {
             libro();
@@ -139,6 +144,16 @@ namespace biblioteca.Precentacion
         private void consultraPorAñosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             consultarAño();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            consultarFecha();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            consultarFecha();
         }
     }
 }
