@@ -233,12 +233,15 @@
             // 
             // btnAutor
             // 
+            this.btnAutor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(28)))), ((int)(((byte)(37)))));
+            this.btnAutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAutor.ForeColor = System.Drawing.Color.White;
             this.btnAutor.Location = new System.Drawing.Point(302, 61);
             this.btnAutor.Name = "btnAutor";
             this.btnAutor.Size = new System.Drawing.Size(93, 23);
             this.btnAutor.TabIndex = 14;
             this.btnAutor.Text = "New";
-            this.btnAutor.UseVisualStyleBackColor = true;
+            this.btnAutor.UseVisualStyleBackColor = false;
             this.btnAutor.Click += new System.EventHandler(this.btnAutor_Click);
             // 
             // btnSearch
@@ -333,13 +336,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
-            this.BackgroundImage = global::biblioteca.Properties.Resources.wp3234816;
+            this.BackgroundImage = global::biblioteca.Properties.Resources.img;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(454, 410);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "Form1";

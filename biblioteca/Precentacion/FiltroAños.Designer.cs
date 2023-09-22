@@ -115,6 +115,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::biblioteca.Properties.Resources.img;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(708, 450);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.txtAñoFin);
@@ -123,6 +125,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbDesde);
             this.Controls.Add(this.dtgAño);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "FiltroAños";
             this.Text = "FiltroAños";
             this.Load += new System.EventHandler(this.FiltroAños_Load);

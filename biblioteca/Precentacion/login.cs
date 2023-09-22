@@ -20,9 +20,22 @@ namespace biblioteca.Precentacion
             InitializeComponent();
         }
 
-        private void login_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            txtContraseña.PasswordChar = ' ';
+        }
 
+
+        private void pbMostrar_Click(object sender, EventArgs e)
+        {
+            pbOcultar.BringToFront();
+            txtContraseña.PasswordChar = '\0';
+        }
+
+        private void click(object sender, EventArgs e)
+        {
+            pbMostrar.BringToFront();
+            txtContraseña.PasswordChar = '*';
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
@@ -32,7 +45,7 @@ namespace biblioteca.Precentacion
             US.usuario = txtUsuario.Text;
             US.contraseña = txtContraseña.Text;
 
-            if ((txtUsuario.Text != "") && (txtContraseña.Text!=""))
+            if ((txtUsuario.Text != "") && (txtContraseña.Text != ""))
             {
                 try
                 {
@@ -48,40 +61,11 @@ namespace biblioteca.Precentacion
             {
                 MessageBox.Show("Deve Rellenar los campos");
             }
-            
-            
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void login_Load(object sender, EventArgs e)
         {
-            txtContraseña.PasswordChar = ' ';
-        }
-
-        private void txtContraseña_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pbMostrar_Click(object sender, EventArgs e)
-        {
-            pbOcultar.BringToFront();
-            txtContraseña.PasswordChar = '\0';
-        }
-
-        private void click(object sender, EventArgs e)
-        {
-            pbMostrar.BringToFront();
-            txtContraseña.PasswordChar = '*';
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
+            txtUsuario.Focus();
         }
     }
 }

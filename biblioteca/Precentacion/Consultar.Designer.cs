@@ -63,7 +63,6 @@
             this.txtTexto.Name = "txtTexto";
             this.txtTexto.Size = new System.Drawing.Size(549, 20);
             this.txtTexto.TabIndex = 2;
-            this.txtTexto.Text = "               ";
             this.txtTexto.TextChanged += new System.EventHandler(this.txtTexto_TextChanged);
             // 
             // btnBuscar
@@ -84,12 +83,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::biblioteca.Properties.Resources.wp3234816;
+            this.BackgroundImage = global::biblioteca.Properties.Resources.img;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtTexto);
             this.Controls.Add(this.cbElegir);
             this.Controls.Add(this.DtgLibro);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Consultar";
             this.Text = "Consultar";
             this.Load += new System.EventHandler(this.Consultar_Load);

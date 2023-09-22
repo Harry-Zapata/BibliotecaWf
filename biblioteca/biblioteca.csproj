@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -105,8 +111,38 @@
     <Compile Include="Precentacion\prestamos.Designer.cs">
       <DependentUpon>prestamos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Precentacion\Reporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precentacion\Reporte.Designer.cs">
+      <DependentUpon>Reporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Precentacion\ReporteAño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precentacion\ReporteAño.Designer.cs">
+      <DependentUpon>ReporteAño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Precentacion\RVReporteAño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Precentacion\RVReporteAño.Designer.cs">
+      <DependentUpon>RVReporteAño.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteLibroAño.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteLibroAño.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReporteLibrosAutor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteLibrosAutor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="Precentacion\biblioteca.resx">
       <DependentUpon>biblioteca.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +167,15 @@
     <EmbeddedResource Include="Precentacion\prestamos.resx">
       <DependentUpon>prestamos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Precentacion\Reporte.resx">
+      <DependentUpon>Reporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precentacion\ReporteAño.resx">
+      <DependentUpon>ReporteAño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precentacion\RVReporteAño.resx">
+      <DependentUpon>RVReporteAño.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -141,6 +186,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ReporteLibroAño.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteLibroAño.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteLibrosAutor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporteLibrosAutor.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="..\.editorconfig">
       <Link>.editorconfig</Link>
     </None>
@@ -243,6 +296,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\time_management_tasks_to_do_list_planning_icon_188770.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_84308.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_security_icon_154431.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matt-icons_dialog-password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iconsmind-Outline-Library-2.512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books-155185_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-documents01-1622837_121952.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-documents01-1622837_1219521.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

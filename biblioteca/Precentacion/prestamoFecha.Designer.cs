@@ -43,9 +43,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 27);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(23, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 13);
+            this.label1.Size = new System.Drawing.Size(58, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tipo";
             // 
@@ -55,9 +58,9 @@
             this.cbTipo.Items.AddRange(new object[] {
             "Fecha_inicio",
             "Fecha_fin"});
-            this.cbTipo.Location = new System.Drawing.Point(49, 24);
+            this.cbTipo.Location = new System.Drawing.Point(83, 24);
             this.cbTipo.Name = "cbTipo";
-            this.cbTipo.Size = new System.Drawing.Size(121, 21);
+            this.cbTipo.Size = new System.Drawing.Size(169, 21);
             this.cbTipo.TabIndex = 1;
             this.cbTipo.Text = "Seleccionar";
             this.cbTipo.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
@@ -65,25 +68,31 @@
             // lbInicio
             // 
             this.lbInicio.AutoSize = true;
-            this.lbInicio.Location = new System.Drawing.Point(176, 27);
+            this.lbInicio.BackColor = System.Drawing.Color.Transparent;
+            this.lbInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbInicio.ForeColor = System.Drawing.Color.White;
+            this.lbInicio.Location = new System.Drawing.Point(258, 20);
             this.lbInicio.Name = "lbInicio";
-            this.lbInicio.Size = new System.Drawing.Size(38, 13);
+            this.lbInicio.Size = new System.Drawing.Size(79, 25);
             this.lbInicio.TabIndex = 2;
             this.lbInicio.Text = "Desde";
             // 
             // lbFin
             // 
             this.lbFin.AutoSize = true;
-            this.lbFin.Location = new System.Drawing.Point(319, 27);
+            this.lbFin.BackColor = System.Drawing.Color.Transparent;
+            this.lbFin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbFin.ForeColor = System.Drawing.Color.White;
+            this.lbFin.Location = new System.Drawing.Point(452, 20);
             this.lbFin.Name = "lbFin";
-            this.lbFin.Size = new System.Drawing.Size(35, 13);
+            this.lbFin.Size = new System.Drawing.Size(73, 25);
             this.lbFin.TabIndex = 3;
             this.lbFin.Text = "Hasta";
             // 
             // dtInicio
             // 
             this.dtInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtInicio.Location = new System.Drawing.Point(210, 24);
+            this.dtInicio.Location = new System.Drawing.Point(343, 23);
             this.dtInicio.Name = "dtInicio";
             this.dtInicio.Size = new System.Drawing.Size(103, 20);
             this.dtInicio.TabIndex = 4;
@@ -91,9 +100,9 @@
             // dtFin
             // 
             this.dtFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtFin.Location = new System.Drawing.Point(351, 25);
+            this.dtFin.Location = new System.Drawing.Point(531, 21);
             this.dtFin.Name = "dtFin";
-            this.dtFin.Size = new System.Drawing.Size(103, 20);
+            this.dtFin.Size = new System.Drawing.Size(110, 20);
             this.dtFin.TabIndex = 5;
             // 
             // dtgPestamo
@@ -104,17 +113,21 @@
             this.dtgPestamo.Location = new System.Drawing.Point(28, 73);
             this.dtgPestamo.Name = "dtgPestamo";
             this.dtgPestamo.ReadOnly = true;
-            this.dtgPestamo.Size = new System.Drawing.Size(509, 344);
+            this.dtgPestamo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgPestamo.Size = new System.Drawing.Size(744, 344);
             this.dtgPestamo.TabIndex = 6;
             this.dtgPestamo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(462, 24);
+            this.btnBuscar.Image = global::biblioteca.Properties.Resources.xmag_search_find_export_locate_5984;
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBuscar.Location = new System.Drawing.Point(697, 12);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.Size = new System.Drawing.Size(75, 42);
             this.btnBuscar.TabIndex = 7;
             this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
@@ -122,7 +135,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(567, 450);
+            this.BackgroundImage = global::biblioteca.Properties.Resources.img;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(837, 450);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.dtgPestamo);
             this.Controls.Add(this.dtFin);
@@ -131,7 +146,9 @@
             this.Controls.Add(this.lbInicio);
             this.Controls.Add(this.cbTipo);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "prestamoFecha";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "prestamoFecha";
             this.Load += new System.EventHandler(this.prestamoFecha_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgPestamo)).EndInit();

@@ -46,6 +46,16 @@ namespace biblioteca.Precentacion
             prestamoFecha frm = new prestamoFecha();
             frm.ShowDialog();
         }
+        void ReporteLibroAutor()
+        {
+            Reporte frm = new Reporte();
+            frm.ShowDialog();
+        }
+        void ReporteLibroAño()
+        {
+            RVReporteAño frm = new RVReporteAño();
+            frm.ShowDialog();
+        }
         private void imgLibro_Click(object sender, EventArgs e)
         {
             libro();
@@ -154,6 +164,36 @@ namespace biblioteca.Precentacion
         private void label6_Click(object sender, EventArgs e)
         {
             consultarFecha();
+        }
+
+        private void libroAutorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReporteLibroAutor();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            ReporteLibroAutor();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            ReporteLibroAutor();
+        }
+
+        private void libroAñoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReporteLibroAño();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            ReporteLibroAño();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            ReporteLibroAño();
         }
     }
 }
